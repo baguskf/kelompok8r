@@ -21,9 +21,11 @@
 </head>
 
 <body onload="brython()" background="5be32ee481a3ec088663db0da3a9784b.jpg"><center>
+    <table width="500" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td bgcolor="#F0F8FF" height="400" align="center" valign="middle"><h1 class="title" >Konversi mata uang</h1>
     
-    <h1 class="title" >Konversi mata uang</h1>
-
+                   
     <div class="content">
 
         <div class="container select-type-container">
@@ -35,7 +37,7 @@
                     <option>Won</option>
             </select>
         </div>
-
+        <h>-</h>
         <div class="container select-calculated-container">
             <select id="select-calculated">
                 <option selected>(Pilih Mata uang)</option>
@@ -52,7 +54,6 @@
                 <input type="text" id="input1">
             </div>
         </div>
-
         <div class="container button-container">
             <button id="btn">Lihat hasil</button>
         </div>
@@ -60,8 +61,10 @@
         <div class="container output-container">
             <div id="output">0</div>
         </div>
-    </div>
-
+    </div></td>
+    </tr>
+    </table>
+    
     <script type="text/python" src="tubes.py"></script>
     </center>
 </body>
